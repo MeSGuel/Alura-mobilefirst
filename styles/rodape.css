@@ -6,5 +6,5 @@ hr {
 .rodape {
     background-color: var(--branco);
     color: var(--azul);
-    padding: 1em;
+    padding: 1.5em 2em;
 }
