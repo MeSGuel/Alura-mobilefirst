@@ -1,4 +1,7 @@
 .cabecalho {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -31,7 +34,9 @@
   top: 90px;
   left: 0;
   width: 60vw;
-  z-index: 99;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.623);
+  border-right: 2px solid rgba(0, 0, 0, 0.692);
+  border-radius: 4px;
 }
 
 .container__botao {
