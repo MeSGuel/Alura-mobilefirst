@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/banner.css" />
     <link rel="stylesheet" href="styles/carrossel.css" />
+    <link rel="stylesheet" href="styles/topicos.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/rodape.css">
 
     <!-- Metadados de Scripts -->
     <script
@@ -137,21 +140,33 @@
       <div class="card__descricao">
         <!-- 1° Coluna -->
         <div class="descricao">
-          <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+          <h3 class="descricao__titulo">
+            Talvez você também se interesse por...
+          </h3>
           <h2 class="descricao__titulo-livro">Angula 11 e Firebase</h2>
-          <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+          <p class="descricao__texto">
+            Construindo uma aplicação integrada com a plataforma do Google.
+          </p>
         </div>
 
         <!-- 2° Coluna -->
-        <img src="assets/Angular.svg" class="descricao__imagem" alt="Imagem da biblioteca Angular">
+        <img
+          src="assets/Angular.svg"
+          class="descricao__imagem"
+          alt="Imagem da biblioteca Angular"
+        />
       </div>
 
       <!-- 2° Linha -->
       <div class="card__botoes">
         <!-- 1° Coluna -->
         <ul class="lista-botoes">
-          <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Favoritar livro"></li>
-          <li class="botoes__item"><img src="assets/Compras.svg" alt="Adicionar no carrinho"></li>
+          <li class="botoes__item">
+            <img src="assets/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botoes__item">
+            <img src="assets/Compras.svg" alt="Adicionar no carrinho" />
+          </li>
         </ul>
 
         <!-- 2° Coluna -->
@@ -201,28 +216,81 @@
       <div class="card__descricao">
         <!-- 1° Coluna -->
         <div class="descricao">
-          <img src="assets/Estrelinhas.svg" alt="Estrelinhas">
+          <img src="assets/Estrelinhas.svg" alt="Estrelinhas" />
           <h3 class="descricao__titulo">Autora do Mês</h3>
           <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-          <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+          <p class="descricao__texto">
+            Analista de sistemas e escritora, Juliana é especialista em
+            Front-End.
+          </p>
         </div>
 
         <!-- 2° Coluna -->
-        <img src="assets/Escritora.svg" class="descricao__imagem" alt="Imagem da biblioteca Angular">
+        <img
+          src="assets/Escritora.svg"
+          class="descricao__imagem"
+          alt="Imagem da biblioteca Angular"
+        />
       </div>
 
       <!-- 2° Linha -->
       <div class="card__botoes">
         <!-- 1° Coluna -->
         <ul class="lista-botoes">
-          <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Favoritar livro"></li>
-          <li class="botoes__item"><img src="assets/Compras.svg" alt="Adicionar no carrinho"></li>
+          <li class="botoes__item">
+            <img src="assets/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botoes__item">
+            <img src="assets/Compras.svg" alt="Adicionar no carrinho" />
+          </li>
         </ul>
 
         <!-- 2° Coluna -->
         <a href="#" class="botoes-ancora">Saiba mais</a>
       </div>
     </div>
+
+    <section class="topicos">
+      <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+      <ul class="topicos__lista">
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Android</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Marketing Digital</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Agile</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Startups</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">HTML & CSS</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Python</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">OO</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#" class="topicos__link">Java</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="contato">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+      <h2 class="rodape__titulo">Grupo Alura</h2>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -232,7 +300,7 @@
         slidesPerView: 3,
         pagination: {
           el: ".swiper-pagination",
-          type: 'bullets'
+          type: "bullets",
         },
       });
     </script>
