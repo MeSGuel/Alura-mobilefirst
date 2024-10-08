@@ -2,9 +2,12 @@
   --cor-de-fundo: #EBECEE;
   --branco: #ffffff;
   --laranja: #EB9B00;
-  --azul-degrade: linear-gradient(180deg, rgba(0,47,82,1) 0%, rgba(50,101,137,1) 100%);
+  --azul-degrade: linear-gradient(120deg, rgba(0,47,82,1) 0%, rgba(50,101,137,1) 100%);
   --fonte-principal: "Poppins";
   --azul: #002F52;
+  --fonte-secundaria: "Josefin Sans";
+  --preto: #000000;
+  --cinza: #858585;
 }
 
 body {

@@ -27,4 +27,31 @@
     font-weight: 700;
     font-size: 14px;
     padding: 15px 20px;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 1024px) {
+  .topicos {
+    padding: 2.5em 1em;
+  }
+
+  .topicos__lista {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .topicos__titulo {
+    font-size: 24px;
+    margin-bottom: 1em;
+  }
+
+  .topicos__link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .topicos__lista {
+    width: 40%;
+  }
 }
