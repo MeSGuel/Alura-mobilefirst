@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 25px 15px 15px 0;
+  padding: 0 15px 0 0;
   background-color: var(--branco);
 }
 
@@ -32,7 +32,7 @@
 .lista-menu{
   display: none;
   position: absolute;
-  top: 90px;
+  top: 70px;
   left: 0;
   width: calc(35vw + 100px);
   border-bottom: 4px solid rgba(0, 0, 0, 0.623);
@@ -44,6 +44,12 @@
 
 .container__botao:checked ~ .lista-menu {
   display: block;
+}
+
+label:hover > .cabecalho__menu-hamburguer {
+  background-image: url('../assets/MenuAberto.svg'), var(--azul-degrade);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container__botao:checked + label > .cabecalho__menu-hamburguer {
@@ -111,6 +117,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .cabecalho {
+    padding: 15px;
+  }
+
   .container__titulo,
   .container__titulo--negrito {
     font-family: var(--fonte-secundaria);
